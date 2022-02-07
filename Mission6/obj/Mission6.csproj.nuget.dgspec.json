@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj": {}
+    "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/Mission6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj": {
+    "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/Mission6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
+        "projectUniqueName": "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/Mission6.csproj",
         "projectName": "Mission6",
-        "projectPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
-        "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\obj\\",
+        "projectPath": "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/Mission6.csproj",
+        "packagesPath": "/Users/davidshipley/.nuget/packages/",
+        "outputPath": "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidshipley/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +37,28 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.22, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }
