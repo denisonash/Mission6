@@ -2,7 +2,7 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
       "/Users/davidshipley/.dotnet/store/|arch|/|tfm|",
-      "C:\\Users\\noeli\\.nuget\\packages\\"
+      "/Users/davidshipley/.nuget/packages"
     ]
   }
 }
