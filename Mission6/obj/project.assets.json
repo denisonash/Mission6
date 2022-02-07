@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/ashleydenison/.nuget/packages/": {}
+    "C:\\Users\\noeli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ashleydenison/Documents/GitHub/Mission6/Mission6/Mission6.csproj",
+      "projectUniqueName": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
       "projectName": "Mission6",
-      "projectPath": "/Users/ashleydenison/Documents/GitHub/Mission6/Mission6/Mission6.csproj",
-      "packagesPath": "/Users/ashleydenison/.nuget/packages/",
-      "outputPath": "/Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/",
+      "projectPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
+      "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ashleydenison/.config/NuGet/NuGet.Config"
+        "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

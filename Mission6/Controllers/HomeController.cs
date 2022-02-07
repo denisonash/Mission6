@@ -28,6 +28,20 @@ namespace Mission6.Controllers
             return View();
         }
 
+        public IActionResult Quadrants()
+        {
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult Edit()
+        {
+            return RedirectToAction("Index");
+        }
+        public IActionResult Delete()
+        {
+            return RedirectToAction("Index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
