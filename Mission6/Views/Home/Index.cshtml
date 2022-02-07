@@ -11,7 +11,6 @@
     </style>
 </head>
 <body>
-
     @*<h2>Quadrant View</h2>
 
         <p>Click on a button to choose list view or grid view.</p>
@@ -21,17 +20,18 @@
             <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
         </div>
         <br>*@
-    <section class="page-section style="background-color: white"" id="quadrants">
+
+    <section class="page-section style=" background-color: white"" id="quadrants">
         <div class="row">
             <div class="column3 " style="background-color: transparent; border: solid 2px transparent;">
             </div>
             <div class="column2" style="background-color: #fff; text-align:center;">
                 <h2>Urgent</h2>
-                
+
             </div>
             <div class="column2" style="background-color: #fff; text-align: center; ">
                 <h2>Non-urgent</h2>
-                
+
             </div>
         </div>
 
@@ -39,7 +39,7 @@
             <div class="column3" style="background-color: #fff; text-align: center; ">
                 <h2 style="writing-mode: vertical-rl; transform: rotate(180deg); text-orientation: mixed; ">Important</h2>
             </div>
-            <div class="column bg-primary" style="background-color:#aaa;">
+            <div class="column bg-primary " style="background-color: #ed7f36; height:auto">
                 <h2>Quadrant 1</h2>
                 <table class="table main-table" id="quadrant1">
                     <thead>
@@ -59,8 +59,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -68,8 +68,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -77,8 +77,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -86,14 +86,14 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="column" style="background-color:#bbb;">
+            <div class="column" style="background-color: transparent;; height: auto">
                 <h2>Quadrant 2</h2>
                 <table class="table main-table" id="quadrant2">
                     <thead>
@@ -113,8 +113,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -122,8 +122,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -131,8 +131,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -140,8 +140,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                     </tbody>
@@ -153,7 +153,7 @@
             <div class="column3" style="background-color: #fff; text-align: center; ">
                 <h2 style="writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); ">Not important</h2>
             </div>
-            <div class="column" style="background-color:#ccc;">
+            <div class="column" style="background-color: transparent;; height: auto">
                 <h2>Quadrant 3</h2>
                 <table class="table main-table" id="quadrant3">
                     <thead>
@@ -173,8 +173,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -182,8 +182,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -191,8 +191,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -200,14 +200,14 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="column" style="background-color:#ddd;">
+            <div class="column" style="background-color: transparent; height: auto">
                 <h2>Quadrant 4</h2>
                 <table class="table main-table" id="quadrant4">
                     <thead>
@@ -227,8 +227,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -236,8 +236,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -245,8 +245,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                         <tr>
@@ -254,8 +254,8 @@
                             <td>Jane Doe</td>
                             <td>123 Main St</td>
                             <td>Provo</td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
+                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
                         </tr>
                     </tbody>
@@ -263,40 +263,40 @@
             </div>
         </div>
 
-        </section>
+    </section>
 
-        @*<script>
-                // Get the elements with class="column"
-                var elements = document.getElementsByClassName("column");
+    @*<script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
 
-                // Declare a loop variable
-                var i;
+            // Declare a loop variable
+            var i;
 
-                // List View
-                function listView() {
-                    for (i = 0; i < elements.length; i++) {
-                        elements[i].style.width = "100%";
-                    }
+            // List View
+            function listView() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.width = "100%";
                 }
+            }
 
-                // Grid View
-                function gridView() {
-                    for (i = 0; i < elements.length; i++) {
-                        elements[i].style.width = "50%";
-                    }
+            // Grid View
+            function gridView() {
+                for (i = 0; i < elements.length; i++) {
+                    elements[i].style.width = "50%";
                 }
+            }
 
-                /* Optional: Add active class to the current button (highlight it) */
-                var container = document.getElementById("btnContainer");
-                var btns = container.getElementsByClassName("btn");
-                for (var i = 0; i < btns.length; i++) {
-                    btns[i].addEventListener("click", function () {
-                        var current = document.getElementsByClassName("active");
-                        current[0].className = current[0].className.replace(" active", "");
-                        this.className += " active";
-                    });
-                }
-            </script>*@
+            /* Optional: Add active class to the current button (highlight it) */
+            var container = document.getElementById("btnContainer");
+            var btns = container.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+        </script>*@
 
 </body>
 </html>
