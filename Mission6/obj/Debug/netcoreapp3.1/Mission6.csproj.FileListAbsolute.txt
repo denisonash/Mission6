@@ -1,38 +1,116 @@
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.exe
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.deps.json
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.runtimeconfig.json
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.runtimeconfig.dev.json
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.dll
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.pdb
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.Views.dll
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\bin\Debug\netcoreapp3.1\Mission6.Views.pdb
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.csproj.AssemblyReference.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.AssemblyInfoInputs.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.AssemblyInfo.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.csproj.CoreCompileInputs.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.RazorAssemblyInfo.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.RazorAssemblyInfo.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\staticwebassets\Mission6.StaticWebAssets.Manifest.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\staticwebassets\Mission6.StaticWebAssets.xml
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\scopedcss\bundle\Mission6.styles.css
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.TagHelpers.input.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.TagHelpers.output.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.RazorCoreGenerate.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.RazorTargetAssemblyInfo.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.RazorTargetAssemblyInfo.cs
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.Views.pdb
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.dll
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.pdb
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.genruntimeconfig.cache
-C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.csproj.CopyComplete
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.exe
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.deps.json
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.runtimeconfig.json
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.runtimeconfig.dev.json
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.dll
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.pdb
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.Views.dll
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.Views.pdb
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.AssemblyReference.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.AssemblyInfoInputs.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.AssemblyInfo.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.CoreCompileInputs.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorAssemblyInfo.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorAssemblyInfo.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/staticwebassets/Mission6.StaticWebAssets.Manifest.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/staticwebassets/Mission6.StaticWebAssets.xml
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/scopedcss/bundle/Mission6.styles.css
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.TagHelpers.input.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.TagHelpers.output.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorCoreGenerate.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorTargetAssemblyInfo.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorTargetAssemblyInfo.cs
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.Views.pdb
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.dll
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.pdb
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.genruntimeconfig.cache
+C:/Users/noeli/OneDrive/Documents/IS Core/IS 413/Projects/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.CopyComplete
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.deps.json
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.runtimeconfig.json
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.runtimeconfig.dev.json
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.pdb
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.Views.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Mission6.Views.pdb
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.AssemblyReference.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.AssemblyInfoInputs.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.AssemblyInfo.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.CoreCompileInputs.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.MvcApplicationPartsAssemblyInfo.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorAssemblyInfo.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorAssemblyInfo.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/staticwebassets/Mission6.StaticWebAssets.Manifest.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/staticwebassets/Mission6.StaticWebAssets.xml
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/scopedcss/bundle/Mission6.styles.css
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.TagHelpers.input.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.TagHelpers.output.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorCoreGenerate.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorTargetAssemblyInfo.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorTargetAssemblyInfo.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.Views.pdb
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.pdb
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.genruntimeconfig.cache
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.csproj.CopyComplete
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/System.Text.Json.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/win-arm/native/e_sqlite3.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
