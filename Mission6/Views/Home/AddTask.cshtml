@@ -1,0 +1,51 @@
+﻿@{
+    ViewData["Title"] = "Add Task";
+}
+
+@model Mission6.Models.Task
+
+    <!-- About-->
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">Add a Task!</h2>
+                    <hr class="divider divider-light" />
+                    <form method="post">
+
+                        <label asp-for="TaskName">Task:</label>
+                        <input asp-for="TaskName" /><br />
+
+                        <label asp-for="DueDate">Due Date:</label>
+                        <input asp-for="DueDate" /><br />
+
+                        <label asp-for="Quadrant">Quadrant</label>
+                        <select asp-for="Quadrant">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                        </select><br />
+
+                        <label asp-for="Category">Category:</label>
+                        <select asp-for="Category">
+                            <option value="Home">Home</option>
+                            <option value="School">School</option>
+                            <option value="Work">Work</option>
+                            <option value="Church">Church</option>
+                        </select><br />
+
+                        <label asp-for="Completed">Completed?</label>
+                        <select asp-for="Completed">
+                            <option value="true">Yes</option>
+                            <option value="false">No</option>
+                        </select><br />
+
+                        <button type="submit">Add Task</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    

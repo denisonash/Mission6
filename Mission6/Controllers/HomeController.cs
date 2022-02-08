@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Mission6.Models;
+using Task = Mission6.Models.Task;
 
 namespace Mission6.Controllers
 {
@@ -47,5 +48,18 @@ namespace Mission6.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        [HttpGet]
+        public IActionResult AddTask()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddTask(Task at)
+        {
+            return RedirectToAction("Index");
+        }
+
     }
 }

@@ -16,5 +16,6 @@ namespace Mission6.Models
         public int Quadrant { get; set; }
         public string Category { get; set; }
         public bool Completed { get; set; }
+
     }
 }
