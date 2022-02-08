@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj": {}
+    "C:\\Users\\swamj\\OneDrive\\Documents\\GitHub\\Mission6\\Mission6\\Mission6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj": {
+    "C:\\Users\\swamj\\OneDrive\\Documents\\GitHub\\Mission6\\Mission6\\Mission6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
+        "projectUniqueName": "C:\\Users\\swamj\\OneDrive\\Documents\\GitHub\\Mission6\\Mission6\\Mission6.csproj",
         "projectName": "Mission6",
-        "projectPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\Mission6.csproj",
-        "packagesPath": "C:\\Users\\noeli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\noeli\\OneDrive\\Documents\\IS Core\\IS 413\\Projects\\Mission6\\Mission6\\obj\\",
+        "projectPath": "C:\\Users\\swamj\\OneDrive\\Documents\\GitHub\\Mission6\\Mission6\\Mission6.csproj",
+        "packagesPath": "C:\\Users\\swamj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\swamj\\OneDrive\\Documents\\GitHub\\Mission6\\Mission6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\noeli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\swamj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
