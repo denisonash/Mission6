@@ -14,8 +14,10 @@ namespace Mission6.Models
         public string DueDate { get; set; }
         [Required]
         public int Quadrant { get; set; }
-        public string Category { get; set; }
         public bool Completed { get; set; }
 
+        //Foreign Key Relationship
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
     }
 }
