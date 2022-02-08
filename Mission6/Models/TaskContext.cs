@@ -5,11 +5,14 @@ namespace Mission6.Models
 {
     public class TaskContext : DbContext
     {
-        public TaskContext(DbContextOptions<TaskContext> options) : base (options)
+        public TaskContext(DbContextOptions<TaskContext> options) : base(options)
         {
             //leave blank
         }
 
         public DbSet<Task> tasks { get; set; }
+
+        public DbSet<Task> addedTasks { get; set; }
+
     }
 }
