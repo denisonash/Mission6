@@ -259,7 +259,6 @@ C:/Users/swamj/OneDrive/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.RazorCoreGenerate.cache
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/AddTask.cshtml.g.cs
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
-/Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /Users/ashleydenison/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs

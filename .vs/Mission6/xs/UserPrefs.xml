@@ -2,24 +2,25 @@
   <MonoDevelop.Ide.ItemProperties.Mission6 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Mission6/Controllers/HomeController.cs" Line="31" Column="10" />
-      <File FileName="Mission6/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Mission6/Views/Home/AddTask.cshtml" Line="1" Column="1" />
-      <File FileName="Mission6/Models/Category.cs" Line="1" Column="1" />
-      <File FileName="Mission6/Models/Task.cs" Line="1" Column="1" />
-      <File FileName="Mission6/Models/TaskContext.cs" Line="15" Column="56" />
+      <File FileName="Mission6/Controllers/HomeController.cs" Line="71" Column="24" />
+      <File FileName="Mission6/Views/Home/Index.cshtml" Line="54" Column="54" />
+      <File FileName="Mission6/Views/Home/AddTask.cshtml" Line="65" Column="5" />
+      <File FileName="Mission6/Models/Category.cs" />
+      <File FileName="Mission6/Models/Task.cs" Line="5" Column="2" />
+      <File FileName="Mission6/Models/TaskContext.cs" Line="16" Column="1" />
+      <File FileName="Mission6/Startup.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission6" expanded="True">
             <Node name="Mission6" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="AddTask.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
             </Node>
