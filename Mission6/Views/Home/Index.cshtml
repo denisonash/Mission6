@@ -2,6 +2,8 @@
     ViewData["Title"] = "Quadrant Page";
 }
 
+@model List<Mission6.Models.Task>;
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -62,13 +64,17 @@
 
                             {
                                 <tr>
-                                    <td>@x.Task</td>
+                                    <td>@x.TaskName</td>
                                     <td>@x.DueDate</td>
                                     <td>@x.Category.CategoryName</td>
                                     <td>@x.Completed</td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</a></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</a></td>
                                 </tr>
+                            }
+                            else
+                            {
+                                continue;
                             }
                         }
 
@@ -98,13 +104,17 @@
 
                             {
                                 <tr>
-                                    <td>@x.Task</td>
+                                    <td>@x.TaskName</td>
                                     <td>@x.DueDate</td>
                                     <td>@x.Category.CategoryName</td>
                                     <td>@x.Completed</td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</a></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</a></td>
                                 </tr>
+                            }
+                            else
+                            {
+                                continue;
                             }
                         }
                     </tbody>
@@ -137,13 +147,17 @@
 
                             {
                                 <tr>
-                                    <td>@x.Task</td>
+                                    <td>@x.TaskName</td>
                                     <td>@x.DueDate</td>
                                     <td>@x.Category.CategoryName</td>
                                     <td>@x.Completed</td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</a></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</a></td>
                                 </tr>
+                            }
+                            else
+                            {
+                                continue;
                             }
                         }
 
@@ -172,13 +186,17 @@
 
                             {
                                 <tr>
-                                    <td>@x.Task</td>
+                                    <td>@x.TaskName</td>
                                     <td>@x.DueDate</td>
                                     <td>@x.Category.CategoryName</td>
                                     <td>@x.Completed</td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
-                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</a></td>
+                                    <td><a class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</a></td>
                                 </tr>
+                            }
+                            else
+                            {
+                                continue;
                             }
                         }
                     </tbody>

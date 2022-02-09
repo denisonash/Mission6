@@ -12,36 +12,50 @@
                     <h2 class="text-white mt-0">Add a Task!</h2>
                     <hr class="divider divider-light" />
                     <form method="post">
+                        <div asp-validation-summary="All"></div>
 
                         <label asp-for="TaskName">Task:</label>
-                        <input asp-for="TaskName" /><br />
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="TaskName" /><br />
+                        </div>
 
                         <label asp-for="DueDate">Due Date:</label>
-                        <input asp-for="DueDate" /><br />
+                        <div class="form-floating mb-3">
+                            <input class="form-control" asp-for="DueDate" /><br />
+                        </div>
 
                         <label asp-for="Quadrant">Quadrant</label>
-                        <select asp-for="Quadrant">
-                            <option value=1>1</option>
-                            <option value=2>2</option>
-                            <option value=3>3</option>
-                            <option value=4>4</option>
-                        </select><br />
+                        <div class="form-floating mb-3">
+                            <select class="form-control" asp-for="Quadrant">
+                                <option value=1>1</option>
+                                <option value=2>2</option>
+                                <option value=3>3</option>
+                                <option value=4>4</option>
+                            </select><br />
+                        </div>
 
-                        <label asp-for="Category">Category:</label>
-                        <select asp-for="Category">
-                            <option value="Home">Home</option>
-                            <option value="School">School</option>
-                            <option value="Work">Work</option>
-                            <option value="Church">Church</option>
-                        </select><br />
+                        <label asp-for="CategoryID">Category:</label>
+                        <div class="form-floating mb-3">
+                            <select class="form-control" asp-for="CategoryID">
+                                <option value="">Select a Category</option>
+                                @foreach (Category c in ViewBag.Categories)
+                                {
+                                    <option value="@c.CategoryID">@c.CategoryName</option>
+                                }
+                            </select><br />
+                        </div>
 
                         <label asp-for="Completed">Completed?</label>
-                        <select asp-for="Completed">
-                            <option value="true">Yes</option>
-                            <option value="false">No</option>
-                        </select><br />
+                        <div class="form-floating mb-3">
+                            <select class="form-control" asp-for="Completed">
+                                <option value="true">Yes</option>
+                                <option value="false">No</option>
+                            </select><br />
+                        </div>
 
-                        <button type="submit">Add Task</button>
+                        <div class="text-center mb-3">
+                            <button type="submit" class="btn btn-secondary btn-xl">Add Task</button>
+                        </div>
                     </form>
                 </div>
             </div>

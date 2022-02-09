@@ -46,13 +46,13 @@ namespace Mission6.Controllers
                 taskContext.Add(task);
                 taskContext.SaveChanges();
 
-                return View("Index");
+                return RedirectToAction("Index");
             }
             else
             {
                 ViewBag.Categories = taskContext.Categories.ToList();
 
-                return View();
+                return View(task);
             }
         }
 
@@ -66,9 +66,9 @@ namespace Mission6.Controllers
         {
             ViewBag.Categories = taskContext.Categories.ToList();
 
-            var task = taskContext.Tasks.Single(x => x.TaskID == taskID);
+            var editTask = taskContext.Tasks.Single(x => x.TaskID == taskID);
 
-            return RedirectToAction("AddTask", task);
+            return View("AddTask", editTask);
         }
 
         [HttpPost]
@@ -83,9 +83,9 @@ namespace Mission6.Controllers
         [HttpGet]
         public IActionResult Delete(int taskID)
         {
-            var task = taskContext.tasks.Single(x => x.TaskID == taskID);
+            var del_task = taskContext.Tasks.Single(x => x.TaskID == taskID);
 
-            taskContext.Tasks.Remove(task);
+            taskContext.Tasks.Remove(del_task);
             taskContext.SaveChanges();
 
             return RedirectToAction("Index");
