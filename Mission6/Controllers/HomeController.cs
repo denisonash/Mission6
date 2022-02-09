@@ -22,7 +22,7 @@ namespace Mission6.Controllers
 
         public IActionResult Index()
         {
-            var tasks = taskContext.tasks
+            var tasks = taskContext.Tasks
                 .Include(x => x.Category)
                 .Where(x => x.Completed == false)
                 .ToList();
@@ -66,7 +66,7 @@ namespace Mission6.Controllers
         {
             ViewBag.Categories = taskContext.Categories.ToList();
 
-            var task = taskContext.tasks.Single(x => x.TaskID == taskID);
+            var task = taskContext.Tasks.Single(x => x.TaskID == taskID);
 
             return RedirectToAction("AddTask", task);
         }
@@ -85,7 +85,7 @@ namespace Mission6.Controllers
         {
             var task = taskContext.tasks.Single(x => x.TaskID == taskID);
 
-            taskContext.tasks.Remove(task);
+            taskContext.Tasks.Remove(task);
             taskContext.SaveChanges();
 
             return RedirectToAction("Index");
