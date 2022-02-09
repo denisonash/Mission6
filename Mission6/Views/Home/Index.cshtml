@@ -55,12 +55,20 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+
+                            @foreach (var x in Model)
+                            {
+                                if (x.Quadrant == 1)
+                            {
+                                <td@>x.Task</td@>
+                                <td>@x.DueDate</td>
+                                <td>@x.Category.CategoryName</td>
+                                <td>@x.Completed</td>
+                                <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskId">Edit</button></td>
+                                <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskId">Delete</button></td>
+                            }
+                            }
+
 
                         </tr>
                         <tr>
