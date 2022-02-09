@@ -7,7 +7,7 @@ namespace Mission6.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Category",
+                name: "Categories",
                 columns: table => new
                 {
                     CategoryID = table.Column<int>(nullable: false)
@@ -16,11 +16,11 @@ namespace Mission6.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Category", x => x.CategoryID);
+                    table.PrimaryKey("PK_Categories", x => x.CategoryID);
                 });
 
             migrationBuilder.CreateTable(
-                name: "tasks",
+                name: "Tasks",
                 columns: table => new
                 {
                     TaskID = table.Column<int>(nullable: false)
@@ -33,28 +33,48 @@ namespace Mission6.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_tasks", x => x.TaskID);
+                    table.PrimaryKey("PK_Tasks", x => x.TaskID);
                     table.ForeignKey(
-                        name: "FK_tasks_Category_CategoryID",
+                        name: "FK_Tasks_Categories_CategoryID",
                         column: x => x.CategoryID,
-                        principalTable: "Category",
+                        principalTable: "Categories",
                         principalColumn: "CategoryID",
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryID", "CategoryName" },
+                values: new object[] { 1, "Home" });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryID", "CategoryName" },
+                values: new object[] { 2, "School" });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryID", "CategoryName" },
+                values: new object[] { 3, "Work" });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryID", "CategoryName" },
+                values: new object[] { 4, "Church" });
+
             migrationBuilder.CreateIndex(
-                name: "IX_tasks_CategoryID",
-                table: "tasks",
+                name: "IX_Tasks_CategoryID",
+                table: "Tasks",
                 column: "CategoryID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "tasks");
+                name: "Tasks");
 
             migrationBuilder.DropTable(
-                name: "Category");
+                name: "Categories");
         }
     }
 }
