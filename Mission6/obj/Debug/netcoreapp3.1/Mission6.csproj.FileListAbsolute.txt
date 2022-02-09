@@ -154,3 +154,4 @@ C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\
 C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.dll
 C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.pdb
 C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.genruntimeconfig.cache
+C:\Users\noeli\OneDrive\Documents\IS Core\IS 413\Projects\Mission6\Mission6\obj\Debug\netcoreapp3.1\Mission6.csproj.AssemblyReference.cache
