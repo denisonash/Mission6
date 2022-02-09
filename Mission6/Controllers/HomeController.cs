@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Mission6.Models;
 using Task = Mission6.Models.Task;
@@ -12,54 +13,90 @@ namespace Mission6.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private TaskContext taskContext { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(TaskContext someTask)
         {
-            _logger = logger;
+            taskContext = someTask;
         }
 
         public IActionResult Index()
         {
-            return View();
-        }
+            var tasks = taskContext.tasks
+                .Include(x => x.Category)
+                .Where(x => x.Completed == false)
+                .ToList();
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        public IActionResult Quadrants()
-        {
-            return RedirectToAction("Index");
-        }
-
-        public IActionResult Edit()
-        {
-            return RedirectToAction("Index");
-        }
-        public IActionResult Delete()
-        {
-            return RedirectToAction("Index");
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(tasks);
         }
 
         [HttpGet]
         public IActionResult AddTask()
         {
+            ViewBag.Categories = taskContext.Categories.ToList();
+
             return View();
         }
 
         [HttpPost]
-        public IActionResult AddTask(Task at)
+        public IActionResult AddTask(Task task)
         {
+            if (ModelState.IsValid)
+            {
+                taskContext.Add(task);
+                taskContext.SaveChanges();
+
+                return View("Index");
+            }
+            else
+            {
+                ViewBag.Categories = taskContext.Categories.ToList();
+
+                return View();
+            }
+        }
+
+        //public IActionResult Quadrants()
+        //{
+        //    return RedirectToAction("Index");
+        //}
+
+        [HttpGet]
+        public IActionResult Edit(int taskID)
+        {
+            ViewBag.Categories = taskContext.Categories.ToList();
+
+            var task = taskContext.tasks.Single(x => x.TaskID == taskID);
+
+            return RedirectToAction("AddTask", task);
+        }
+
+        [HttpPost]
+        public IActionResult Edit(Task info)
+        {
+            taskContext.Update(info);
+            taskContext.SaveChanges();
+
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult Delete(int taskID)
+        {
+            var task = taskContext.tasks.Single(x => x.TaskID == taskID);
+
+            taskContext.tasks.Remove(task);
+            taskContext.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
+
+        //[HttpPost]
+        //public IActionResult Delete()
+        //{
+        //    return RedirectToAction("Index");
+        //}
+
 
     }
 }

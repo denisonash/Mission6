@@ -12,7 +12,7 @@ namespace Mission6.Models
 
         public DbSet<Task> tasks { get; set; }
 
-        public DbSet<Task> addedTasks { get; set; }
+        public DbSet<Category> Categories { get; set; }
 
     }
 }
