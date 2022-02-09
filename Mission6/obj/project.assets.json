@@ -1206,7 +1206,7 @@
       "outputPath": "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/davidshipley/.config/NuGet/NuGet.Config"
+        "/Users/davidshipley/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1272,13 +1272,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

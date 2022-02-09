@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "t4BpRiZVio5yII0pvqno4PJlcCMQZ+CFHuuaqRY33RA9BQ0R2FGbAlss7XJq+GPC38X6p7gqQ1qLT8Wv3j8M0w==",
+  "dgSpecHash": "SMCNOAua4vvl3QM11qzcuGyFkeX6Fugbd860HG1dFkliWQD8OKCLGMGFTiWDe0zSn3lmK6ZJ7a/w8ojNX+7Gog==",
   "success": true,
   "projectFilePath": "/Users/davidshipley/Documents/GitHub/Mission6/Mission6/Mission6.csproj",
   "expectedPackageFiles": [
@@ -39,12 +39,5 @@
     "/Users/davidshipley/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/davidshipley/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

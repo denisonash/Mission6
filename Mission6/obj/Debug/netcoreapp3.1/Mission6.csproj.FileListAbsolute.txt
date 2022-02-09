@@ -193,3 +193,4 @@ C:/Users/swamj/OneDrive/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3
 C:/Users/swamj/OneDrive/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.pdb
 C:/Users/swamj/OneDrive/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Mission6.genruntimeconfig.cache
 C:/Users/swamj/OneDrive/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/AddTask.cshtml.g.cs
+/Users/davidshipley/Documents/GitHub/Mission6/Mission6/obj/Debug/netcoreapp3.1/Razor/Views/Home/AddTask.cshtml.g.cs
