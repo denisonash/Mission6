@@ -54,46 +54,30 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                        @foreach (var x in Model)
+                        {
+                            if (x.Quadrant == 1)
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            {
+                                <tr>
+                                    <td>@x.Task</td>
+                                    <td>@x.DueDate</td>
+                                    <td>@x.Category.CategoryName</td>
+                                    <td>@x.Completed</td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                </tr>
+                            }
+                        }
 
-                        </tr>
+
+
                     </tbody>
                 </table>
             </div>
-            <div class="column" style="background-color: transparent;; height: auto">
+            <div class="column" style="background-color: transparent; height: auto">
                 <h2>Quadrant 2</h2>
                 <table class="table main-table" id="quadrant2">
                     <thead>
@@ -108,42 +92,21 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                        @foreach (var x in Model)
+                        {
+                            if (x.Quadrant == 2)
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
+                            {
+                                <tr>
+                                    <td>@x.Task</td>
+                                    <td>@x.DueDate</td>
+                                    <td>@x.Category.CategoryName</td>
+                                    <td>@x.Completed</td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                </tr>
+                            }
+                        }
                     </tbody>
                 </table>
             </div>
@@ -153,7 +116,7 @@
             <div class="column3" style="background-color: #fff; text-align: center; ">
                 <h2 style="writing-mode: vertical-rl; text-orientation: mixed; transform: rotate(180deg); ">Not important</h2>
             </div>
-            <div class="column" style="background-color: transparent;; height: auto">
+            <div class="column" style="background-color: transparent; height: auto">
                 <h2>Quadrant 3</h2>
                 <table class="table main-table" id="quadrant3">
                     <thead>
@@ -168,42 +131,23 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                        @foreach (var x in Model)
+                        {
+                            if (x.Quadrant == 3)
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                            {
+                                <tr>
+                                    <td>@x.Task</td>
+                                    <td>@x.DueDate</td>
+                                    <td>@x.Category.CategoryName</td>
+                                    <td>@x.Completed</td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                </tr>
+                            }
+                        }
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
+                       
                     </tbody>
                 </table>
             </div>
@@ -222,42 +166,21 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
+                        @foreach (var x in Model)
+                        {
+                            if (x.Quadrant == 4)
 
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
-                        <tr>
-                            <td>123456789</td>
-                            <td>Jane Doe</td>
-                            <td>123 Main St</td>
-                            <td>Provo</td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit">Edit</button></td>
-                            <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete">Delete</button></td>
-
-                        </tr>
+                            {
+                                <tr>
+                                    <td>@x.Task</td>
+                                    <td>@x.DueDate</td>
+                                    <td>@x.Category.CategoryName</td>
+                                    <td>@x.Completed</td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Edit" asp-route-taskid="@x.TaskID">Edit</button></td>
+                                    <td><button type="submit" class="btn btn-secondary" asp-controller="Home" asp-action="Delete" asp-route-taskid="@x.TaskID">Delete</button></td>
+                                </tr>
+                            }
+                        }
                     </tbody>
                 </table>
             </div>
